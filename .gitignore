@@ -1,0 +1,36 @@
+# 通用忽略规则
+.DS_Store
+node_modules/
+dist/
+build/
+*.log
+*.env
+*.lock
+
+# 前端忽略规则
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# 后端忽略规则
+backend/node_modules/
+backend/dist/
+backend/.env
+
+# 智能合约忽略规则
+contracts/artifacts/
+contracts/target/  # 如果使用Scarb
+contracts/**/*.json
+contracts/**/*.zip
+
+# IDE 配置文件
+.vscode/
+.idea/
+
+# 测试相关忽略
+coverage/
+*.lcov
+
+# 其他忽略
+*.swp
+*.swo

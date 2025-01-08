@@ -1,0 +1,40 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Nestor Bonilla",
+    "url": "https://0xNestor.com"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.0.3",
+    "@starknet-react/chains": "3.0.0-beta.2",
+    "@starknet-react/core": "3.0.0-beta.2",
+    "@starknet-react/typescript-config": "0.0.0",
+    "get-starknet-core": "^4.0.0",
+    "lodash": "^4.17.21",
+    "next": "^14.2.23",
+    "react": "^18",
+    "react-dom": "^18",
+    "starknet": "6.12.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@types/lodash": "^4.17.7",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.2",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5"
+  }
+}
